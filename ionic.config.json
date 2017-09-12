@@ -1,5 +1,8 @@
 {
   "name": "iotodos",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "d54b646a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }
