@@ -8,10 +8,10 @@
 </ion-header>
 
 
-<ion-content padding *ngIf="todo">
+<ion-content padding>
 
 	<form (submit)="onEditSubmit()">
-		<ion-list>
+		<ion-list *ngIf="todo">
 			<ion-item>
 				<ion-label fixed>Text</ion-label>
 				<ion-input type="text" [(ngModel)]="todo.text" name="text"></ion-input>
